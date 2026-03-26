@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+	// コンテキストをどうやって使うか？
 	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Second)
 	defer cancel()
 
